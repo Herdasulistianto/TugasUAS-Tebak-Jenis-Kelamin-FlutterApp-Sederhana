@@ -4,7 +4,7 @@
 Herda Dwi Sulistianto (12191695)
 
 ## Hasil :
-![](result.gif)
+![](resault.gif)
 
 saya membuat aplikasi sederhana tebak jenis kelamin dengan Flutter dengan memanfaatkan API dari website `genderize.io` .Jadi cara kerja aplikasi ini nantinya dengan hanya memasukkan nama,aplikasi akan menampilkan tebakan atau prediksi jenis kelamin dari nama tersebut.
 
