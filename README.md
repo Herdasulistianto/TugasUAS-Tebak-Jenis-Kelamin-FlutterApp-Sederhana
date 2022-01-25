@@ -9,10 +9,9 @@ Herda Dwi Sulistianto (12191695)
 saya membuat aplikasi sederhana tebak jenis kelamin dengan Flutter dengan memanfaatkan API dari website `genderize.io` .Jadi cara kerja aplikasi ini nantinya dengan hanya memasukkan nama,aplikasi akan menampilkan tebakan atau prediksi jenis kelamin dari nama tersebut.
 
 ## PENJELASAN :
- MyApp adalah StatelessWidget, merupakan widget induk;
- MaterialApp adalah widget yang membungkus beberapa widget yang 
-menggunakan tema material design 1;
- Scaffold adalah widget untuk struktur dasar material design;
- AppBar adalah widget untuk membuat AppBar;
- Center adalah Widget layout untuk membuat widget ke tengah;
- Text adalah widget untuk membuat teks.
+1. fungsi build() membangun badan utama dari aplikasi
+2. fungsi _search di dalam children build sebagai tampilan input pencarian jenis kelamin 
+3. di dalam fungsi tersebut juga terdapat fungsi untuk melakukan tebak jenis kelamin berdasarkan inputan yang diisi user, dengen mencocokannya dengan API 'api.genderize.io'
+4. fungsinya hanya menggunakan get data
+5. Dengan melemparkan parameter name
+6. Dia akan mengembalikan hasilnya dan menampilkannya di aplikasi
